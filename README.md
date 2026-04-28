@@ -18,7 +18,7 @@
   <!-- Fallback (light mode) -->
   <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/py-kalki/py-kalki/output/github-contribution-grid-snake.svg" />
 </picture>
-  
+
 </div>
 
 ## Tech Stack
@@ -69,10 +69,18 @@ const vedansh = {
 };
 ```
 
+## 📈 Contribution Graph
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/py-kalki/py-kalki/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
 ## 💼 What I'm Up To
 
 - 🔭 Currently exploring **new technologies and frameworks**
-- 🌱 Learning and **trying new things** 
+- 🌱 Learning and **trying new things**
 - 👯 Looking to collaborate on **web development projects**
 - 💬 Ask me about **JavaScript, Python, React, Node.js, or anything tech!**
 - ⚡ Fun fact: **Coffee + Code = Magic ✨☕**
@@ -93,7 +101,7 @@ const vedansh = {
 ---
 
 <div align="center">
-  
+
 ### 💖 Show some love by starring some repositories!
 
 ![Profile Views](https://komarev.com/ghpvc/?username=py-kalki&color=3DDCF7&style=for-the-badge&label=PROFILE+VIEWS)
