@@ -7,6 +7,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,20 +18,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
         with:
-          node-version: '18'
-
-      - name: Generate light snake SVG (npx)
-        run: |
-          mkdir -p dist
-          npx platane/snk --user "${{ github.repository_owner }}" --output dist/github-contribution-grid-snake.svg
-
-      - name: Generate dark snake SVG (npx)
-        run: |
-          mkdir -p dist
-          npx platane/snk --user "${{ github.repository_owner }}" --palette github-dark --output dist/github-contribution-grid-snake-dark.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Publish generated files to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
