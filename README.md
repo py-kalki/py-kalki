@@ -69,34 +69,6 @@ const vedansh = {
 };
 ```
 
-<div align="center">
-  
-## 📊 GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=py-kalki&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3DDCF7&icon_color=3DDCF7&text_color=FFFFFF" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=py-kalki&theme=tokyonight&hide_border=true&background=0D1117&stroke=3DDCF7&ring=3DDCF7&fire=FF6B6B&currStreakLabel=3DDCF7" width="49%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=py-kalki&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3DDCF7&text_color=FFFFFF" width="49%" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=py-kalki&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=3DDCF7&line=3DDCF7&point=FFFFFF" width="49%" />
-
-</div>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  
-![GitHub Trophies](https://github-trophies.vercel.app/?username=py-kalki&theme=onedark)
-
-</div>
-
-## 📈 Contribution Graph
-
-<div align="center">
-  
-![Snake animation](https://raw.githubusercontent.com/py-kalki/py-kalki/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
 ## 💼 What I'm Up To
 
 - 🔭 Currently exploring **new technologies and frameworks**
